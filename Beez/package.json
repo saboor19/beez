@@ -1,0 +1,19 @@
+{
+  "name": "beez",
+  "version": "1.0.0",
+  "description": "my social app(first_attemp)",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "beez"
+  ],
+  "author": "Abdul Saboor Bhat",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "git": "^0.1.5"
+  }
+}
