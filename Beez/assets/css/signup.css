@@ -1,0 +1,61 @@
+
+/* Add some basic styling to the form */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+#signup{
+  border: 3px solid antiquewhite;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+ 
+  font-family: 'Courier New', Courier, monospace;
+  text-align: left;
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+input[type="password"]:hover{
+background-color: darkgray;
+transform: scale(1.1);
+transition: transform ease-in-out 1s ;
+}
+input[type="email"]:hover{
+  background-color: darkgray;
+  transform: scale(1.1);
+  transition: transform ease-in-out 1s ;
+  }
+  input[type="text"]:hover{
+    background-color: darkgray;
+    transform: scale(1.1);
+    transition: transform ease-in-out 1s ;
+    }
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
