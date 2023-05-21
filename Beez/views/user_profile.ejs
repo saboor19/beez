@@ -3,4 +3,8 @@
         profile
     </h1>
     
- 
+ <p>name: <%=user.name%></p>
+ <p>Email: <%=user.email%></p>
+ <form action="/users/signout" method="POST" name="signout">
+    <button type="submit">Sign Out</button>
+  </form>

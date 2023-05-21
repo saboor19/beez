@@ -1,10 +1,15 @@
 const express=require('express');
+const cookieParser=require('cookie-parser');
 const app=express();
 const port=8000;
 //requiring express EJS layout
 const expressLayouts=require('express-ejs-layouts');
 //dataBase connection
 const db=require('./config/mongoose');
+
+app.use(express.urlencoded());
+
+app.use(cookieParser());
 
 //layout methods to organise style and script
 app.use(expressLayouts);
